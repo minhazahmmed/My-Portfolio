@@ -156,7 +156,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <button
         onClick={() => scrollTo("about")}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 hover:text-white/60 transition-colors"
+        className="absolute bottom-0 md:bottom-9 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 hover:text-white/60 transition-colors"
       >
         <p className="text-xs tracking-widest uppercase">Scroll</p>
         <FiArrowDown size={16} className="animate-bounce" />
