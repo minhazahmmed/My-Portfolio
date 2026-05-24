@@ -4,9 +4,9 @@ import { BsBriefcaseFill } from "react-icons/bs";
 import profileImage from "../../assets/images/profile.png";
 
 const roles = [
-  "Frontend Developer",
-  "React Enthusiast",
-  "UI/UX Lover",
+  "MERN Stack Developer",
+  "Frontend Engineer",
+  "React & Next.js Enthusiast",
   "Problem Solver",
 ];
 
@@ -93,9 +93,7 @@ export default function Hero() {
           </div>
 
           <p className="text-white/50 text-base md:text-lg leading-relaxed mb-10 max-w-lg mx-auto md:mx-0">
-            I'm a passionate developer who loves building clean, efficient code
-            and crafting beautiful user interfaces. Let's create something
-            amazing together!
+           I'm a passionate full-stack developer who loves building clean, efficient code and crafting beautiful, highly functional user interfaces. Let's create something amazing together!
           </p>
 
           {/* CTA Buttons */}
