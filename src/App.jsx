@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/layout/Navbar';
 import About from './components/sections/About';
 import Hero from './components/sections/Hero';
+import Skills from './components/sections/Skills';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
   
       <About />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Projects /> */}
       {/* <Education /> */}
       {/* <Footer /> */}
