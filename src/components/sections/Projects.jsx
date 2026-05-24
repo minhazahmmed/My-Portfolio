@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
-import { FiX, FiGithub, FiExternalLink } from "react-icons/fi";
+import { FiX, FiGithub, FiExternalLink, FiChevronDown, FiChevronUp } from "react-icons/fi";
 import ProjectCard from "../ui/ProjectCard";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [showAll, setShowAll] = useState(false);
+const INITIAL_SHOW = 3;
 
   useEffect(() => {
     fetch("/data/projects.json")
@@ -39,16 +41,52 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              index={index}
-              onDetails={setSelectedProject}
-            />
-          ))}
-        </div>
+  {/* Projects Grid */}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  {projects.map((project, index) => {
+    const isHidden = index >= INITIAL_SHOW && !showAll;
+
+    return (
+      <div
+        key={project.id}
+        className={`
+          h-full transition-all duration-500 ease-out
+          ${isHidden
+            ? "opacity-0 scale-95 pointer-events-none absolute invisible h-0 w-0 p-0 overflow-hidden"
+            : "opacity-100 scale-100 relative visible"}
+        `}
+        style={{
+          transitionDelay:
+            showAll && index >= INITIAL_SHOW
+              ? `${(index - INITIAL_SHOW) * 80}ms`
+              : "0ms",
+        }}
+      >
+        <ProjectCard
+          project={project}
+          index={index}
+          onDetails={setSelectedProject}
+        />
+      </div>
+    );
+  })}
+</div>
+
+{/* Show More / Show Less */}
+{projects.length > INITIAL_SHOW && (
+  <div className="flex justify-center mt-10">
+    <button
+      onClick={() => setShowAll((prev) => !prev)}
+      className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-white/15 text-white/60 hover:text-white hover:border-cyan-500/40 hover:bg-cyan-500/10 transition-all duration-200 text-sm font-medium"
+    >
+      {showAll ? (
+        <><FiChevronUp size={15} /> Show Less</>
+      ) : (
+        <><FiChevronDown size={15} /> Show More Projects</>
+      )}
+    </button>
+  </div>
+)}
       </div>
 
       {/* Modal */}
@@ -61,14 +99,14 @@ export default function Projects() {
             className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-gray-900 border border-white/15 shadow-2xl shadow-black/50"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Modal Image */}
-            <div className="relative h-52 overflow-hidden rounded-t-2xl">
-              <img
-                src={selectedProject.image}
-                alt={selectedProject.title}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-linear-to-t from-gray-900/90 to-transparent" />
+           {/* Modal Image */}
+<div className="relative h-52 overflow-hidden rounded-t-2xl">
+  <img
+    src={selectedProject.image}
+    alt={selectedProject.title}
+    className="w-full h-auto block animate-image-scroll"
+  />
+  <div className="absolute inset-0 bg-linear-to-t from-gray-900/90 to-transparent pointer-events-none" />
 
               {/* Close button */}
               <button

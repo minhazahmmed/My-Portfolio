@@ -16,7 +16,7 @@
     "subtitle": "Role-Based Full Stack Platform",
     "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
     "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
-    "image": "https://placehold.co/600x400/1e293b/a855f7?text=Blood+Donation",
+    "image": "https://i.ibb.co.com/bjPNC42M/blood-donation-project.png",
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
     "github": "https://github.com/minhazahmmed/blood-donation",
     "live": "https://blood-donation.vercel.app"
@@ -27,6 +27,28 @@
     "subtitle": "Your Project Tagline Here",
     "description": "Short description of what this project does. Keep it concise and impactful for the card view.",
     "problemSolved": "Explain what real-world problem this project solves. Describe the challenge users faced before your solution, and how your application addresses it effectively.",
+    "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
+    "technologies": ["React", "MongoDB", "Tailwind CSS"],
+    "github": "https://github.com/yourusername/project",
+    "live": "https://your-project.vercel.app"
+  },
+  {
+    "id": 4,
+    "title": "Enter Your Project Name",
+    "subtitle": "Your Project Tagline Here",
+    "description": "Short description of what this project does. Keep it concise and impactful for the card view.",
+    "problemSolved": "Explain what real-world problem this project solves. Describe the challenge users faced before your solution, and how your application addresses it effectively.",
+    "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
+    "technologies": ["React", "MongoDB", "Tailwind CSS"],
+    "github": "https://github.com/yourusername/project",
+    "live": "https://your-project.vercel.app"
+  },
+  {
+    "id": 5,
+    "title": "Enter Your Project Name",
+    "subtitle": "Your Project Tagline Here",
+    "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
+    "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
     "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
     "technologies": ["React", "MongoDB", "Tailwind CSS"],
     "github": "https://github.com/yourusername/project",
