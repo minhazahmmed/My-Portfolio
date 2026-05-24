@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './components/layout/Navbar';
+import About from './components/sections/About';
 import Hero from './components/sections/Hero';
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
       <Navbar />
       <Hero />
 
-      {/* পরে যোগ হবে */}
-      {/* <About /> */}
+  
+      <About />
       {/* <Skills /> */}
       {/* <Projects /> */}
       {/* <Education /> */}

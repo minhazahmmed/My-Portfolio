@@ -56,7 +56,7 @@ export default function Navbar() {
           onClick={() => scrollTo("hero")}
           className="text-white font-bold text-xl tracking-wide hover:text-cyan-400 transition-colors"
         >
-          &lt;Minhaz /&gt;
+          &lt;Minhaz Ahmmed /&gt;
         </button>
 
         {/* Desktop Links + Resume Button */}
@@ -82,12 +82,13 @@ export default function Navbar() {
           <a
             href={resumePDF}
             download="Minhaz_Ahmmed_Resume.pdf"
-            className="ml-3 flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-cyan-500 to-blue-600 text-white text-sm font-semibold hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-105 transition-all duration-200"
+            className="ml-3 flex items-center gap-2 px-5 py-2 rounded-full bg-linear-to-r from-cyan-600 to-blue-700 text-white text-md font-semibold hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-105 transition-all duration-200"
           >
             <FiDownload size={14} />
             Resume
           </a>
         </div>
+
 
         {/* Mobile Hamburger */}
         <button
