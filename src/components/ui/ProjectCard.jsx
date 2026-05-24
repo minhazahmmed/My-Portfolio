@@ -7,7 +7,7 @@ export default function ProjectCard({ project, index, onDetails }) {
   return (
     <div
       ref={ref}
-      className="transition-all duration-700 ease-out"
+      className="h-full transition-all duration-700 ease-out"
       style={{
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0) rotateX(0deg)" : "translateY(60px) rotateX(12deg)",
@@ -16,22 +16,24 @@ export default function ProjectCard({ project, index, onDetails }) {
     >
       <div className="group relative flex flex-col rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm overflow-hidden hover:border-cyan-500/30 hover:bg-white/8 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/10 h-full">
 
-        {/* Cover Image */}
-        <div className="relative overflow-hidden h-48">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-linear-to-t from-gray-950/80 to-transparent" />
+       {/* Cover Image */}
+<div className="relative overflow-hidden h-48">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-auto block transition-transform duration-3000 ease-in-out group-hover:-translate-y-[calc(100%-12rem)]"
+  />
+  <div className="absolute inset-0 bg-linear-to-t from-gray-950/80 to-transparent pointer-events-none" />
 
-          {/* Subtitle badge */}
-          <div className="absolute bottom-3 left-3">
-            <span className="px-2.5 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-xs font-medium backdrop-blur-sm">
-              {project.subtitle}
-            </span>
-          </div>
-        </div>
+  {/* Subtitle badge */}
+  <div className="absolute bottom-3 left-3">
+    <span className="px-2.5 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-xs font-medium backdrop-blur-sm">
+      {project.subtitle}
+    </span>
+  </div>
+</div>
+
+
 
         {/* Card Body */}
         <div className="flex flex-col flex-1 p-5 gap-4">
