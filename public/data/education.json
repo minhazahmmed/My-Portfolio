@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "degree": "Bachelor of Science in Computer Science & Engineering",
+    "institution": "International Islamic University Chittagong (IIUC)",
+    "timeline": "2023 - Present",
+    "result": "CGPA: 3.50 / 4.00",
+    "details": "Focusing on Software Engineering, Data Structures, Algorithms, and Full-Stack Web Development.",
+    "status": "ongoing"
+  },
+  {
+    "id": 2,
+    "degree": "Higher Secondary Certificate (HSC)",
+    "institution": "Hazera Taju Degree College",
+    "timeline": "2021",
+    "result": "GPA: 5.00 / 5.00",
+    "details": "Science Group — Completed with perfect GPA.",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "degree": "Secondary School Certificate (SSC)",
+    "institution": "Hazi Muhammad Mohsin Govt. High School",
+    "timeline": "2019",
+    "result": "GPA: 5.00 / 5.00",
+    "details": "Science Group — Completed with perfect GPA.",
+    "status": "completed"
+  }
+]
