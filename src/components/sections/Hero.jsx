@@ -143,6 +143,7 @@ export default function Hero() {
               alt="Minhaz Ahmmed"
               className="absolute inset-1 w-[calc(100%-8px)] h-[calc(100%-8px)] rounded-full object-cover"
             />
+            
             {/* Badge */}
             <div className="absolute -bottom-2 -right-2 flex items-center gap-1.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-3 py-2 shadow-lg">
               <BsBriefcaseFill size={11} className="text-green-400" />
