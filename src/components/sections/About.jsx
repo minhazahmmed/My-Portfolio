@@ -2,17 +2,21 @@ import { FiDownload, FiMail } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BsCalendar3 } from "react-icons/bs";
 import resumePDF from "../../assets/resume/resume.pdf";
-import aboutImage from "../../assets/images/about_me_image.jpg"
+import aboutImage from "../../assets/images/about_me_image.jpg";
 
 const stats = [
   { value: "3.50", label: "CGPA out of 4.00" },
-  { value: "10+", label: "Projects Completed" },
-  { value: "5+", label: "Technologies Used" },
-  { value: "100%", label: "Dedication" },
+  { value: "15+", label: "Projects Completed" },
+  { value: "20+", label: "Technologies Used" },
+  { value: "1+ Year", label: "Experience" },
 ];
 
 const info = [
-  { icon: HiOutlineLocationMarker, label: "Location", value: "Chittagong, Bangladesh" },
+  {
+    icon: HiOutlineLocationMarker,
+    label: "Location",
+    value: "Chittagong, Bangladesh",
+  },
   { icon: BsCalendar3, label: "Available", value: "Open to Opportunities" },
   { icon: FiMail, label: "Email", value: "minhazahmmed231@email.com" },
 ];
@@ -31,7 +35,9 @@ export default function About() {
           <p className="text-cyan-400 text-sm font-medium tracking-widest uppercase mb-3">
             Get to know me
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            About Me
+          </h2>
           <div className="mt-4 mx-auto w-16 h-px bg-linear-to-r from-cyan-400 to-purple-500" />
         </div>
 
@@ -75,26 +81,28 @@ export default function About() {
               </h3>
               <div className="flex flex-col gap-4 text-white/60 text-base leading-relaxed">
                 <p>
-                  I'm <span className="text-white font-medium">Minhaz Ahmmed</span>, a
-                  Computer Science & Engineering student at{" "}
+                  I'm{" "}
+                  <span className="text-white font-medium">Minhaz Ahmmed</span>,
+                  a Computer Science & Engineering student at{" "}
                   <span className="text-cyan-400 font-medium">
                     International Islamic University Chittagong (IIUC)
                   </span>
                   , maintaining a CGPA of 3.50/4.00.
                 </p>
                 <p>
-                  I specialize in building full-stack web applications using React,
-                  Node.js, and MongoDB. My recent projects include{" "}
-                  <span className="text-white/80">Paw Mart</span> — a full-stack pet care
-                  platform, and a{" "}
-                  <span className="text-white/80">Blood Donation System</span> featuring
-                  role-based authentication (Admin, User, Volunteer) with JWT — all fully
-                  responsive.
+                  I specialize in building full-stack web applications using
+                  React, Node.js, and MongoDB. My recent projects include{" "}
+                  <span className="text-white/80">Paw Mart</span> — a full-stack
+                  pet care platform, and a{" "}
+                  <span className="text-white/80">Blood Donation System</span>{" "}
+                  featuring role-based authentication (Admin, User, Volunteer)
+                  with JWT — all fully responsive.
                 </p>
                 <p>
-                  I'm passionate about writing clean, maintainable code and crafting
-                  user interfaces that are both visually appealing and highly functional.
-                  I'm actively looking for opportunities to grow and contribute.
+                  I'm passionate about writing clean, maintainable code and
+                  crafting user interfaces that are both visually appealing and
+                  highly functional. I'm actively looking for opportunities to
+                  grow and contribute.
                 </p>
               </div>
             </div>
