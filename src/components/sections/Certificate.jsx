@@ -4,7 +4,7 @@ import {
   FiExternalLink,
   FiChevronDown,
   FiChevronUp,
-  FiAward,
+  
 } from "react-icons/fi";
 import { BsBuilding, BsCalendar3 } from "react-icons/bs";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
@@ -197,17 +197,17 @@ export default function Certificate() {
       {/* Image Modal */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 md:p-4 bg-black/80 backdrop-blur-sm overflow-x-hidden"
           onClick={() => setSelectedImage(null)}
         >
           <div
-            className="relative max-w-2xl w-full mx-4"
+            className="relative w-[92%] sm:w-full max-w-2xl mx-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button */}
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute -top-4 -right-4 z-10 w-9 h-9 rounded-full bg-gray-900 border border-white/20 flex items-center justify-center text-white/70 hover:text-white hover:bg-gray-800 transition-all shadow-lg"
+              className="absolute -top-3 -right-2 sm:-top-4 sm:-right-4 z-10 w-9 h-9 rounded-full bg-gray-900 border border-white/20 flex items-center justify-center text-white/70 hover:text-white hover:bg-gray-800 transition-all shadow-lg"
             >
               <FiX size={16} />
             </button>

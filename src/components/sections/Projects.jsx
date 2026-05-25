@@ -25,7 +25,7 @@ const INITIAL_SHOW = 3;
   }, [selectedProject]);
 
   return (
-    <section id="projects" className="relative py-24 px-6">
+    <section id="projects" className="relative py-24 px-4 sm:px-6 overflow-hidden">
       <div className="absolute bottom-1/3 left-1/2 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-6xl mx-auto">
@@ -92,11 +92,11 @@ const INITIAL_SHOW = 3;
       {/* Modal */}
       {selectedProject && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 md:p-4 bg-black/70 backdrop-blur-sm overflow-x-hidden"
           onClick={() => setSelectedProject(null)}
         >
           <div
-            className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-gray-900 border border-white/15 shadow-2xl shadow-black/50"
+            className="relative w-[94%] sm:w-full max-w-2xl max-h-[85vh] sm:max-h-[90vh] overflow-y-auto rounded-2xl bg-gray-900 border border-white/15 shadow-2xl shadow-black/50 mx-auto"
             onClick={(e) => e.stopPropagation()}
           >
            {/* Modal Image */}
