@@ -1,16 +1,30 @@
-# React + Vite
+# Minhaz Ahmmed — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [minhaz-portfolio.vercel.app](https://minhaz-portfolio.vercel.app)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A personal portfolio website built with React and Tailwind CSS, showcasing my skills, projects, education, and achievements as a full-stack web developer.
 
-## React Compiler
+## Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero** — Introduction with typewriter effect
+- **About** — Background, stats, and resume download
+- **Skills** — Tech stack with show more toggle
+- **Projects** — Full-stack projects with live demo and GitHub links
+- **Education** — Academic timeline
+- **Certificates** — Course completions and achievements
+- **Contact** — Contact form powered by EmailJS
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React, Vite, Tailwind CSS v4, EmailJS, React Icons
+
+---
+
+Developed by **Minhaz Ahmmed**
+
+[LinkedIn](https://linkedin.com/in/minhaz-ahmmed) &nbsp;|&nbsp;
+[Github]( https://github.com/minhazahmmed) &nbsp;|&nbsp;
+[Facebook](https://facebook.com/minhaz.ahmmed.98) &nbsp;|&nbsp;
+[YouTube](https://youtube.com/@foundationofscience9952) 
