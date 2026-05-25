@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development (MERN Stack)",
+    "type": "course",
+    "organization": "Programming Hero",
+    "issueDate": "2025",
+    "image": "https://i.ibb.co.com/bf9GRLB/PH-Certificate.jpg",
+    "credentialUrl": "https://your-certificate-link-here.com"
+  },
+  {
+    "id": 2,
+    "title": "2nd Runners-Up - C++ Project Showcasing",
+    "type": "achievement",
+    "organization": "IIUC",
+    "issueDate": "2024",
+    "image": "https://i.ibb.co.com/F41rY8Kg/CPP-Project-certificate.jpg",
+    "credentialUrl": ""
+  },
+  {
+    "id": 3,
+    "title": "Participant - NASA Space Apps Challenge",
+    "type": "participation",
+    "organization": "NASA",
+    "issueDate": "2024",
+    "image": "https://i.ibb.co.com/VYdFVtsH/NASA-Space-Apps-Challenge-Certficate.jpg",
+    "credentialUrl": "https://your-nasa-link.com"
+  },
+  {
+    "id": 4,
+    "title": "MERN Stack Development Workshop",
+    "type": "workshop",
+    "organization": "Creative IT & IEEE CS BDC",
+    "issueDate": "October 2024",
+    "image": "https://i.ibb.co.com/Xftnvkv9/MERN-stack-workshop-certificate.png",
+    "credentialUrl": "https://your-verification-link-if-any.com"
+  }
+]

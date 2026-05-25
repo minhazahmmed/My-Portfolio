@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Skills", href: "skills" },
   { label: "Projects", href: "projects" },
   { label: "Education", href: "education" },
+  { label: "Certificates", href: "certificates" },
 ];
 
 export default function Navbar() {
@@ -56,7 +57,7 @@ export default function Navbar() {
           onClick={() => scrollTo("hero")}
           className="text-white font-bold text-xl tracking-wide hover:text-cyan-400 transition-colors"
         >
-          &lt;Minhaz Ahmmed /&gt;
+          &lt;Minhaz /&gt;
         </button>
 
         {/* Desktop Links + Resume Button */}
