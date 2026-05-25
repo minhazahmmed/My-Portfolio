@@ -1,14 +1,14 @@
 [
     {
     "id": 1,
-    "title": "Blood Donation System",
+    "title": "Blood Flow",
     "subtitle": "Role-Based Full Stack Platform",
     "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
     "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
     "image": "https://i.ibb.co.com/bjPNC42M/blood-donation-project.png",
   "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Tailwind CSS"],
     "github": "https://github.com/minhazahmmed/blood-donation-client",
-    "live": "https://blood-donation-project-mongodb.web.app/"
+    "live": "https://blood-donation-project-mongodb.web.app"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "image": "https://i.ibb.co.com/xS7rXH3L/Pawmart-Project-Image.png",
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase"],
     "github": "https://github.com/minhazahmmed/pawmart-client",
-    "live": "https://pet-care-auth-project.web.app/"
+    "live": "https://pet-care-auth-project.web.app"
   },
 
 {
@@ -31,28 +31,28 @@
   "image": "https://i.ibb.co.com/wrbcBBRs/Hero-io-project.png",
   "technologies": ["React", "JavaScript", "Tailwind CSS", "React Router", "LocalStorage API"],
   "github": "https://github.com/minhazahmmed/Hero-IO-React-Project",
-  "live": "https://hero-io-react-router-project.netlify.app/"
+  "live": "https://hero-io-react-router-project.netlify.app"
 },
-  {
-    "id": 4,
-    "title": "Enter Your Project Name",
-    "subtitle": "Your Project Tagline Here",
-    "description": "Short description of what this project does. Keep it concise and impactful for the card view.",
-    "problemSolved": "Explain what real-world problem this project solves. Describe the challenge users faced before your solution, and how your application addresses it effectively.",
-    "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
-    "technologies": ["React", "MongoDB", "Tailwind CSS"],
-    "github": "https://github.com/yourusername/project",
-    "live": "https://your-project.vercel.app"
-  },
-  {
-    "id": 5,
-    "title": "Enter Your Project Name",
-    "subtitle": "Your Project Tagline Here",
-    "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
-    "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
-    "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
-    "technologies": ["React", "MongoDB", "Tailwind CSS"],
-    "github": "https://github.com/yourusername/project",
-    "live": "https://your-project.vercel.app"
-  }
+{
+  "id": 4,
+  "title": "Green-Earth",
+  "subtitle": "Interactive Eco-Commerce UI",
+  "description": "A dynamic tree-nursery platform built with vanilla JavaScript, featuring external API data fetching, real-time category filtering, and an interactive cart system.",
+  "problemSolved": "Building a functional e-commerce flow without frontend frameworks requires efficient DOM manipulation. Green-Earth solves this by asynchronously fetching product data, updating the cart state in real-time, and handling dynamic UI rendering using native JavaScript.",
+  "image": "https://i.ibb.co.com/XxTmWpG7/Green-Earth-Project.png",
+  "technologies": ["JavaScript (ES6+)", "REST API", "Tailwind CSS", "HTML5"],
+  "github": "https://github.com/minhazahmmed/Green-Earth-API-Project",
+  "live": "https://green-earth-project-api.netlify.app"
+},
+{
+  "id": 5,
+  "title": "Emergency-Hotline",
+  "subtitle": "Interactive Directory & Utility Tool",
+  "description": "A feature-rich national helpline directory built with vanilla JavaScript, featuring gamified access-tokens, clipboard integration, and live history logs.",
+  "problemSolved": "Simulating utility logic like real-time clipboard copying and a token-limiting system requires rigid event handling. Emergency-Hotline solves this by restricting access based on a dynamic coin-wallet and logging interactions flawlessly in a custom call-history stack.",
+  "image": "https://i.ibb.co.com/0jzGB20g/Emergency-hotline-project.png",
+  "technologies": ["JavaScript (DOM)", "Tailwind CSS", "HTML5", "Clipboard API"],
+  "github": "https://github.com/minhazahmmed/Emergency-hotline-project",
+  "live": "https://minhazahmmed.github.io/Emergency-hotline-project"
+}
 ]
