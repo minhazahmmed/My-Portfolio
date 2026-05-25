@@ -5,8 +5,8 @@ import profileImage from "../../assets/images/profile.png";
 
 const roles = [
   "MERN Stack Developer",
-  "Frontend Engineer",
-  "React & Next.js Enthusiast",
+  "React Enthusiast",
+  "Full Stack Developer",
   "Problem Solver",
 ];
 
