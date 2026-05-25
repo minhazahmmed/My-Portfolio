@@ -104,7 +104,7 @@ export default function Education() {
   }, []);
 
   return (
-    <section id="education" className="relative py-9 md:py-22 scroll-mt-14 md:scroll-mt-6 px-6">
+    <section id="education" className="relative py-12 md:py-22 scroll-mt-14 md:scroll-mt-6 px-6">
       <div className="absolute top-1/4 right-0 w-72 h-72 bg-cyan-500/8 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-purple-500/8 rounded-full blur-3xl -z-10" />
 

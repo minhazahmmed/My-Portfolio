@@ -65,7 +65,7 @@ export default function GetInTouch() {
   };
 
   return (
-    <section id="contact" className="relative py-9 md:py-22 scroll-mt-14 md:scroll-mt-6 px-6">
+    <section id="contact" className="relative py-12 md:py-22 scroll-mt-14 md:scroll-mt-6 px-6">
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-64 bg-cyan-500/8 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-6xl mx-auto">
