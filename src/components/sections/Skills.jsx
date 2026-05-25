@@ -62,7 +62,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="relative py-24 px-6">
+    <section id="skills" className="relative py-9 md:py-22 px-6 scroll-mt-14 md:scroll-mt-6" >
       <div className="absolute top-1/3 right-0 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-6xl mx-auto">

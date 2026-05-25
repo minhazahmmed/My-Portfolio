@@ -125,7 +125,7 @@ export default function Certificate() {
   }, [selectedImage]);
 
   return (
-    <section id="certificates" className="relative py-24 px-6">
+    <section id="certificates" className="relative py-9 md:py-22 scroll-mt-14 md:scroll-mt-6 px-6">
       <div className="absolute top-1/3 left-1/4 w-72 h-72 bg-amber-500/8 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-6xl mx-auto">

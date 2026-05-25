@@ -14,11 +14,9 @@ function App() {
 
 
   return (
-     <main className="bg-gray-950 min-h-screen">
+     <main className="bg-gray-950 min-h-screen ">
       <Navbar />
       <Hero />
-
-  
       <About />
       <Skills />
       <Projects />

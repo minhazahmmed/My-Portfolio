@@ -26,7 +26,7 @@ export default function About() {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <section id="about" className="relative py-24 px-6">
+    <section id="about" className="relative py-9 md:py-22 px-6 scroll-mt-14 md:scroll-mt-6">
       <div className="absolute top-1/2 left-0 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-6xl mx-auto">
