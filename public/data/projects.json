@@ -1,37 +1,38 @@
 [
-  {
+    {
     "id": 1,
-    "title": "Paw Mart",
-    "subtitle": "Full Stack Pet Care Platform",
-    "description": "A comprehensive pet care e-commerce platform where users can browse, purchase pet products and book veterinary services.",
-    "problemSolved": "Pet owners in Bangladesh struggled to find a single platform for both pet products and vet services. Paw Mart solves this by combining an e-commerce store with a service booking system — saving time and providing a seamless experience for pet lovers.",
-    "image": "https://placehold.co/600x400/1e293b/06b6d4?text=Paw+Mart",
-    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase"],
-    "github": "https://github.com/minhazahmmed/paw-mart",
-    "live": "https://paw-mart.vercel.app"
-  },
-  {
-    "id": 2,
     "title": "Blood Donation System",
     "subtitle": "Role-Based Full Stack Platform",
     "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
     "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
     "image": "https://i.ibb.co.com/bjPNC42M/blood-donation-project.png",
-    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
-    "github": "https://github.com/minhazahmmed/blood-donation",
-    "live": "https://blood-donation.vercel.app"
+  "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Tailwind CSS"],
+    "github": "https://github.com/minhazahmmed/blood-donation-client",
+    "live": "https://blood-donation-project-mongodb.web.app/"
   },
   {
-    "id": 3,
-    "title": "Enter Your Project Name",
-    "subtitle": "Your Project Tagline Here",
-    "description": "Short description of what this project does. Keep it concise and impactful for the card view.",
-    "problemSolved": "Explain what real-world problem this project solves. Describe the challenge users faced before your solution, and how your application addresses it effectively.",
-    "image": "https://placehold.co/600x400/1e293b/22d3ee?text=Your+Project",
-    "technologies": ["React", "MongoDB", "Tailwind CSS"],
-    "github": "https://github.com/yourusername/project",
-    "live": "https://your-project.vercel.app"
+    "id": 2,
+    "title": "Paw Mart",
+    "subtitle": "Full Stack Pet Care Platform",
+    "description": "A comprehensive pet care e-commerce platform where users can browse, purchase pet products and book veterinary services.",
+    "problemSolved": "Pet owners in Bangladesh struggled to find a single platform for both pet products and vet services. Paw Mart solves this by combining an e-commerce store with a service booking system — saving time and providing a seamless experience for pet lovers.",
+    "image": "https://i.ibb.co.com/xS7rXH3L/Pawmart-Project-Image.png",
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase"],
+    "github": "https://github.com/minhazahmmed/pawmart-client",
+    "live": "https://pet-care-auth-project.web.app/"
   },
+
+{
+  "id": 3,
+  "title": "Hero-IO",
+  "subtitle": "App Management Dashboard",
+  "description": "An interactive dashboard simulating a mobile OS application manager, featuring real-time UI updates and continuous data backup using browser LocalStorage.",
+  "problemSolved": "Simulating persistent app installation without a backend is tricky. Hero-IO handles this by using LocalStorage to save user actions, ensuring installed apps stay intact after a page refresh and vanish immediately upon uninstallation.",
+  "image": "https://i.ibb.co.com/wrbcBBRs/Hero-io-project.png",
+  "technologies": ["React", "JavaScript", "Tailwind CSS", "React Router", "LocalStorage API"],
+  "github": "https://github.com/minhazahmmed/Hero-IO-React-Project",
+  "live": "https://hero-io-react-router-project.netlify.app/"
+},
   {
     "id": 4,
     "title": "Enter Your Project Name",
