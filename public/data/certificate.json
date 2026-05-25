@@ -4,27 +4,27 @@
     "title": "Complete Web Development (MERN Stack)",
     "type": "course",
     "organization": "Programming Hero",
-    "issueDate": "2025",
-    "image": "https://i.ibb.co.com/bf9GRLB/PH-Certificate.jpg",
-    "credentialUrl": "https://your-certificate-link-here.com"
+    "issueDate": "February 2026",
+    "image": "https://i.ibb.co.com/bf9GRLB/PH-Certificate.jpg"
+    
   },
   {
     "id": 2,
     "title": "2nd Runners-Up - C++ Project Showcasing",
     "type": "achievement",
     "organization": "IIUC",
-    "issueDate": "2024",
-    "image": "https://i.ibb.co.com/F41rY8Kg/CPP-Project-certificate.jpg",
-    "credentialUrl": ""
+    "issueDate": "January 2024",
+    "image": "https://i.ibb.co.com/F41rY8Kg/CPP-Project-certificate.jpg"
+   
   },
   {
     "id": 3,
     "title": "Participant - NASA Space Apps Challenge",
     "type": "participation",
     "organization": "NASA",
-    "issueDate": "2024",
-    "image": "https://i.ibb.co.com/VYdFVtsH/NASA-Space-Apps-Challenge-Certficate.jpg",
-    "credentialUrl": "https://your-nasa-link.com"
+    "issueDate": "October 2025",
+    "image": "https://i.ibb.co.com/VYdFVtsH/NASA-Space-Apps-Challenge-Certficate.jpg"
+   
   },
   {
     "id": 4,
@@ -32,7 +32,7 @@
     "type": "workshop",
     "organization": "Creative IT & IEEE CS BDC",
     "issueDate": "October 2024",
-    "image": "https://i.ibb.co.com/Xftnvkv9/MERN-stack-workshop-certificate.png",
-    "credentialUrl": "https://your-verification-link-if-any.com"
+    "image": "https://i.ibb.co.com/Xftnvkv9/MERN-stack-workshop-certificate.png"
+   
   }
 ]

@@ -3,12 +3,12 @@ import { FiDownload } from "react-icons/fi";
 import resumePDF from "../../assets/resume/resume.pdf";
 
 const navLinks = [
-  { label: "Home", href: "hero" },
-  { label: "About", href: "about" },
-  { label: "Skills", href: "skills" },
-  { label: "Projects", href: "projects" },
-  { label: "Education", href: "education" },
+  { label: "Home",         href: "hero" },
+  { label: "Skills",       href: "skills" },
+  { label: "Projects",     href: "projects" },
+  { label: "Education",    href: "education" },
   { label: "Certificates", href: "certificates" },
+  { label: "Contact",      href: "contact" },
 ];
 
 export default function Navbar() {

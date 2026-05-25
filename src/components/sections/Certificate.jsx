@@ -94,25 +94,7 @@ function CertificateCard({ item, index, onImageClick }) {
             </div>
           </div>
 
-          {/* Credential Button */}
-          <div className="mt-auto pt-2">
-            {item.credentialUrl ? (
-              <a
-                href={item.credentialUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-linear-to-r from-cyan-500/20 to-blue-600/20 border border-cyan-500/30 text-cyan-400 hover:from-cyan-500/30 hover:to-blue-600/30 hover:border-cyan-500/50 transition-all duration-200 text-xs font-semibold"
-              >
-                <FiExternalLink size={13} />
-                Verify Credential
-              </a>
-            ) : (
-              <div className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-white/3 border border-white/8 text-white/25 text-xs font-medium cursor-not-allowed">
-                <FiAward size={13} />
-                No Credential Link
-              </div>
-            )}
-          </div>
+
         </div>
       </div>
     </div>
