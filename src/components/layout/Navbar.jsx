@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FiDownload } from "react-icons/fi";
+import resumePDF from "../../assets/resume/Minhaz_Ahmmed_Resume.pdf"
 
 
 const navLinks = [
@@ -81,7 +82,7 @@ export default function Navbar() {
 
           {/* Resume Button — Navbar end */}
           <a
-            href="/Minhaz-Ahmmed-Resume.pdf"
+            href={resumePDF}
             download="Minhaz_Ahmmed_Resume.pdf"
             className="ml-3 flex items-center gap-2 px-5 py-2 rounded-full bg-linear-to-r from-cyan-600 to-blue-700 text-white text-md font-semibold hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-105 transition-all duration-200"
           >
@@ -125,7 +126,7 @@ export default function Navbar() {
             {/* Mobile Resume Button */}
             <li>
               <a
-                href="/Minhaz-Ahmmed-Resume.pdf"
+                href={resumePDF}
                 download="Minhaz_Ahmmed_Resume.pdf"
                 className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold text-cyan-400 hover:bg-cyan-500/10 transition-all"
               >
