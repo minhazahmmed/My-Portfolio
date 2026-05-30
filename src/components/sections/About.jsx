@@ -2,7 +2,7 @@ import { FiDownload, FiMail } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BsCalendar3 } from "react-icons/bs";
 import resumePDF from "../../assets/resume/Minhaz_Ahmmed_Resume.pdf"
-import aboutImage from "../../assets/images/about_me_image.jpg";
+import aboutImage from "../../assets/images/about_me_image.webp";
 
 const stats = [
   { value: "3.50", label: "CGPA out of 4.00" },
