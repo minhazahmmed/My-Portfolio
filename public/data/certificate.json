@@ -28,6 +28,24 @@
   },
   {
     "id": 4,
+    "title": "IIUC Intra University Datathon",
+    "type": "participation",
+    "organization": "IIUC Developers & Entrepreneurs Society",
+    "issueDate": "June 2026",
+    "image": "https://i.ibb.co.com/cckpMk0j/Datathon.jpg"
+   
+  },
+  {
+    "id": 5,
+    "title": "Machine Learning with Python",
+    "type": "course",
+    "organization": "IICT, CUET & EDGE Project, BCC",
+    "issueDate": "June 2026",
+    "image": "https://i.ibb.co.com/XxTHmtf5/ML-Edge-Course.jpg"
+   
+  },
+  {
+    "id": 6,
     "title": "MERN Stack Development Workshop",
     "type": "workshop",
     "organization": "Creative IT & IEEE CS BDC",
