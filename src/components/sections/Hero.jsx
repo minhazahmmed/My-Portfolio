@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FiGithub, FiLinkedin, FiArrowDown } from "react-icons/fi";
 import { BsBriefcaseFill } from "react-icons/bs";
-import profileImage from "../../assets/images/profile.png";
+import profileImage from "../../assets/images/profile.webp";
 
 const roles = [
   "MERN Stack Developer",

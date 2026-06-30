@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FiDownload } from "react-icons/fi";
-import resumePDF from "../../assets/resume/resume.pdf";
+import resumePDF from "../../assets/resume/Minhaz_Ahmmed_Resume.pdf"
+
 
 const navLinks = [
   { label: "Home",         href: "hero" },

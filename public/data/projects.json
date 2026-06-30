@@ -5,7 +5,7 @@
     "subtitle": "Role-Based Full Stack Platform",
     "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
     "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
-    "image": "https://i.ibb.co.com/bjPNC42M/blood-donation-project.png",
+    "image": "https://i.ibb.co.com/MkB1DnCZ/blood-donation-project.webp",
   "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Tailwind CSS"],
     "github": "https://github.com/minhazahmmed/blood-donation-client",
     "live": "https://blood-donation-project-mongodb.web.app"
@@ -16,7 +16,7 @@
     "subtitle": "Full Stack Pet Care Platform",
     "description": "A comprehensive pet care e-commerce platform where users can browse, purchase pet products and book veterinary services.",
     "problemSolved": "Pet owners in Bangladesh struggled to find a single platform for both pet products and vet services. Paw Mart solves this by combining an e-commerce store with a service booking system — saving time and providing a seamless experience for pet lovers.",
-    "image": "https://i.ibb.co.com/xS7rXH3L/Pawmart-Project-Image.png",
+    "image": "https://i.ibb.co.com/QvkbRSyC/Pawmart-Project-Image.webp",
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase"],
     "github": "https://github.com/minhazahmmed/pawmart-client",
     "live": "https://pet-care-auth-project.web.app"
@@ -28,7 +28,7 @@
   "subtitle": "App Management Dashboard",
   "description": "An interactive dashboard simulating a mobile OS application manager, featuring real-time UI updates and continuous data backup using browser LocalStorage.",
   "problemSolved": "Simulating persistent app installation without a backend is tricky. Hero-IO handles this by using LocalStorage to save user actions, ensuring installed apps stay intact after a page refresh and vanish immediately upon uninstallation.",
-  "image": "https://i.ibb.co.com/wrbcBBRs/Hero-io-project.png",
+  "image": "https://i.ibb.co.com/yBBwBRPg/Hero-io-project.webp",
   "technologies": ["React", "JavaScript", "Tailwind CSS", "React Router", "LocalStorage API"],
   "github": "https://github.com/minhazahmmed/Hero-IO-React-Project",
   "live": "https://hero-io-react-router-project.netlify.app"
@@ -39,7 +39,7 @@
   "subtitle": "Interactive Eco-Commerce UI",
   "description": "A dynamic tree-nursery platform built with vanilla JavaScript, featuring external API data fetching, real-time category filtering, and an interactive cart system.",
   "problemSolved": "Building a functional e-commerce flow without frontend frameworks requires efficient DOM manipulation. Green-Earth solves this by asynchronously fetching product data, updating the cart state in real-time, and handling dynamic UI rendering using native JavaScript.",
-  "image": "https://i.ibb.co.com/XxTmWpG7/Green-Earth-Project.png",
+  "image": "https://i.ibb.co.com/DfHdyjr6/Green-Earth-Project.webp",
   "technologies": ["JavaScript (ES6+)", "REST API", "Tailwind CSS", "HTML5"],
   "github": "https://github.com/minhazahmmed/Green-Earth-API-Project",
   "live": "https://green-earth-project-api.netlify.app"
@@ -50,7 +50,7 @@
   "subtitle": "Interactive Directory & Utility Tool",
   "description": "A feature-rich national helpline directory built with vanilla JavaScript, featuring gamified access-tokens, clipboard integration, and live history logs.",
   "problemSolved": "Simulating utility logic like real-time clipboard copying and a token-limiting system requires rigid event handling. Emergency-Hotline solves this by restricting access based on a dynamic coin-wallet and logging interactions flawlessly in a custom call-history stack.",
-  "image": "https://i.ibb.co.com/0jzGB20g/Emergency-hotline-project.png",
+  "image": "https://i.ibb.co.com/pjJgxSfF/Emergency-hotline-project.webp",
   "technologies": ["JavaScript (DOM)", "Tailwind CSS", "HTML5", "Clipboard API"],
   "github": "https://github.com/minhazahmmed/Emergency-hotline-project",
   "live": "https://minhazahmmed.github.io/Emergency-hotline-project"
