@@ -5,7 +5,7 @@ import resumePDF from "../../assets/resume/Minhaz_Ahmmed_Resume.pdf"
 import aboutImage from "../../assets/images/about_me_image.webp";
 
 const stats = [
-  { value: "3.50", label: "CGPA out of 4.00" },
+  { value: "3.523", label: "CGPA out of 4.00" },
   { value: "15+", label: "Projects Completed" },
   { value: "20+", label: "Technologies Used" },
   { value: "1+ Year", label: "Experience" },
@@ -87,7 +87,7 @@ export default function About() {
                   <span className="text-cyan-400 font-medium">
                     International Islamic University Chittagong (IIUC)
                   </span>
-                  , maintaining a CGPA of 3.50/4.00.
+                  , maintaining a CGPA of 3.523/4.00.
                 </p>
                 <p>
                   I specialize in building full-stack web applications using
