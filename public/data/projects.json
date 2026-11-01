@@ -5,7 +5,7 @@
     "subtitle": "Role-Based Full Stack Platform",
     "description": "A full-stack blood donation management system with role-based authentication for Admin, User, and Volunteer — secured with JWT.",
     "problemSolved": "Finding blood donors urgently is a major challenge in Bangladesh. This platform connects donors with recipients in real time, while the role-based system ensures admins can manage requests, volunteers can coordinate drives, and users can find donors instantly — all in one place.",
-    "image": "https://i.ibb.co.com/MkB1DnCZ/blood-donation-project.webp",
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518119/blood-donation-project.webp",
   "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Tailwind CSS"],
     "github": "https://github.com/minhazahmmed/blood-donation-client",
     "live": "https://blood-donation-project-mongodb.web.app"
@@ -16,7 +16,7 @@
     "subtitle": "Full Stack Pet Care Platform",
     "description": "A comprehensive pet care e-commerce platform where users can browse, purchase pet products and book veterinary services.",
     "problemSolved": "Pet owners in Bangladesh struggled to find a single platform for both pet products and vet services. Paw Mart solves this by combining an e-commerce store with a service booking system — saving time and providing a seamless experience for pet lovers.",
-    "image": "https://i.ibb.co.com/QvkbRSyC/Pawmart-Project-Image.webp",
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518333/Pawmart-Project-Image.webp",
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase"],
     "github": "https://github.com/minhazahmmed/pawmart-client",
     "live": "https://pet-care-auth-project.web.app"
