@@ -5,7 +5,7 @@
     "type": "course",
     "organization": "Programming Hero",
     "issueDate": "February 2026",
-    "image": "https://i.ibb.co.com/nMpgCTcb/PH-Certificate.webp"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518852/PH_Certificate.webp"
     
   },
   {
@@ -14,7 +14,7 @@
     "type": "achievement",
     "organization": "IIUC",
     "issueDate": "January 2024",
-    "image": "https://i.ibb.co.com/RkYFzypH/CPP-Project-certificate.webp"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518850/CPP_Project_certificate.webp"
    
   },
   {
@@ -23,7 +23,7 @@
     "type": "participation",
     "organization": "NASA",
     "issueDate": "October 2025",
-    "image": "https://i.ibb.co.com/G4HRbC2J/NASA-Space-Apps-Challenge-Certficate.webp"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518957/NASA_Space_Apps_Challenge_Certficate.webp"
    
   },
   {
@@ -32,7 +32,7 @@
     "type": "participation",
     "organization": "IIUC Developers & Entrepreneurs Society",
     "issueDate": "June 2026",
-    "image": "https://i.ibb.co.com/cckpMk0j/Datathon.jpg"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518850/Datathon_IIUC_Certificate.webp"
    
   },
   {
@@ -41,7 +41,7 @@
     "type": "course",
     "organization": "IICT, CUET & EDGE Project, BCC",
     "issueDate": "June 2026",
-    "image": "https://i.ibb.co.com/XxTHmtf5/ML-Edge-Course.jpg"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518851/Edge_ML_Course_Certificate.webp"
    
   },
   {
@@ -50,7 +50,7 @@
     "type": "workshop",
     "organization": "Creative IT & IEEE CS BDC",
     "issueDate": "October 2024",
-    "image": "https://i.ibb.co.com/JWK2nrHd/MERN-stack-workshop-certificate.webp"
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793518851/MERN_stack_workshop_certificate.webp"
    
   }
 ]
