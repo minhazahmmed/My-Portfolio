@@ -5,7 +5,7 @@
     "subtitle": "Full Stack Home-Cooked Meals Marketplace",
     "description": "A full-stack MERN marketplace where home chefs list their meals and customers browse, order, pay online and review them, with separate dashboards for User, Chef and Admin.",
     "problemSolved": "People who crave real home-cooked food have no reliable place to find it, and talented home cooks have no easy way to reach customers. Local Chef Bazaar connects both sides in one platform, with secure Stripe payments, order tracking, a delivery coverage map and role-based dashboards, so chefs manage orders while admins keep the platform safe.",
-    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793524134/Local-Chef-Bazaar-Project.webp",
+    "image": "https://res.cloudinary.com/cm8t9gty/image/upload/v1793561809/Local-Chef-Bazaar-Project.webp",
     "technologies": [
       "React",
       "Node.js",
